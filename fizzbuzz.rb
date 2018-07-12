@@ -1,6 +1,6 @@
 def fizzbuzz(number)
   
-  if (number %3 == 0)&& (nukmber %5== 0)
+  if (number %3 == 0)&& (number %5== 0)
     puts "fizzbuzz"
     
   elsif (number %3 == 0)
@@ -11,6 +11,8 @@ def fizzbuzz(number)
   end 
   
 end 
+
+fizzbuzz(9)
       
       
       
